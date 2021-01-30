@@ -1,0 +1,18 @@
+<component-set>
+    <components>
+        <component>
+            <role>org.apache.maven.lifecycle.Lifecycle</role>
+            <role-hint>customLifecyclePlugin_PackagingType</role-hint>
+            <implementation>org.apache.maven.lifecycle.Lifecycle</implementation>
+            <configuration>
+                <id>CodeBuilderLifecyclePlugin_LifecycleID</id>
+                <phases>
+                    <phase>codebuilder</phase>
+                </phases>
+                <default-phases>
+                    <codebuilder>it.ness.codebuilder:filterdef-maven-plugin:generate-sources</codebuilder>
+                </default-phases>
+            </configuration>
+        </component>
+    </components>
+</component-set>
