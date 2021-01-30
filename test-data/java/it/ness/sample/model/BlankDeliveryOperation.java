@@ -3,7 +3,6 @@ package it.ness.sample.model;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import it.coopservice.wastetracing.model.enums.BlankDeliveryOperationStatus;
 import org.hibernate.annotations.GenericGenerator;
-import it.ness.codebuilder.annotations.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
