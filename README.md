@@ -1,4 +1,6 @@
-# Filterdef maven plugin
+# Filterdef Maven plugin
+
+Maven plugin to generate quickly java classes for rest api using with Quarkus and Hibernate Panache Project, with @Filters on Entity classes.
 
 ## How to install
 Add to the pom.xml file, inside  ```<dependencies/>```:
